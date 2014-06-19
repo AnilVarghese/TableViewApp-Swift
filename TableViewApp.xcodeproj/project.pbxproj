@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCCAF331952BBDB00A5759A /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF321952BBDB00A5759A /* recipes.plist */; };
+		ECCCAF451952BE3000A5759A /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF351952BE3000A5759A /* ham_and_egg_sandwich.jpg */; };
+		ECCCAF461952BE3000A5759A /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF361952BE3000A5759A /* green_tea.jpg */; };
+		ECCCAF471952BE3000A5759A /* full_breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF371952BE3000A5759A /* full_breakfast.jpg */; };
+		ECCCAF481952BE3000A5759A /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF381952BE3000A5759A /* white_chocolate_donut.jpg */; };
+		ECCCAF491952BE3000A5759A /* noodle_with_bbq_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF391952BE3000A5759A /* noodle_with_bbq_pork.jpg */; };
+		ECCCAF4A1952BE3000A5759A /* instant_noodle_with_egg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF3A1952BE3000A5759A /* instant_noodle_with_egg.jpg */; };
+		ECCCAF4B1952BE3000A5759A /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF3B1952BE3000A5759A /* thai_shrimp_cake.jpg */; };
+		ECCCAF4C1952BE3000A5759A /* angry_birds_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF3C1952BE3000A5759A /* angry_birds_cake.jpg */; };
+		ECCCAF4D1952BE3000A5759A /* mushroom_risotto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF3D1952BE3000A5759A /* mushroom_risotto.jpg */; };
+		ECCCAF4E1952BE3000A5759A /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF3E1952BE3000A5759A /* vegetable_curry.jpg */; };
+		ECCCAF4F1952BE3000A5759A /* japanese_noodle_with_pork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF3F1952BE3000A5759A /* japanese_noodle_with_pork.jpg */; };
+		ECCCAF501952BE3000A5759A /* starbucks_coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF401952BE3000A5759A /* starbucks_coffee.jpg */; };
+		ECCCAF511952BE3000A5759A /* egg_benedict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF411952BE3000A5759A /* egg_benedict.jpg */; };
+		ECCCAF521952BE3000A5759A /* ham_and_cheese_panini.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF421952BE3000A5759A /* ham_and_cheese_panini.jpg */; };
+		ECCCAF531952BE3000A5759A /* hamburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF431952BE3000A5759A /* hamburger.jpg */; };
+		ECCCAF541952BE3000A5759A /* creme_brelee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF441952BE3000A5759A /* creme_brelee.jpg */; };
+		ECCCAF591952C3EF00A5759A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCAF571952C3EF00A5759A /* TableViewCell.swift */; };
+		ECCCAF5A1952C3EF00A5759A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF581952C3EF00A5759A /* TableViewCell.xib */; };
+		ECCEA2E31952AEA00007277A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEA2E21952AEA00007277A /* AppDelegate.swift */; };
+		ECCEA2E51952AEA00007277A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEA2E41952AEA00007277A /* TableViewController.swift */; };
+		ECCEA2E81952AEA00007277A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCEA2E61952AEA00007277A /* Main.storyboard */; };
+		ECCEA2EA1952AEA00007277A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCEA2E91952AEA00007277A /* Images.xcassets */; };
+		ECCEA2F61952AEA00007277A /* TableViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEA2F51952AEA00007277A /* TableViewAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCEA2F01952AEA00007277A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCEA2D51952AE9F0007277A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCEA2DC1952AE9F0007277A;
+			remoteInfo = TableViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECCCAF321952BBDB00A5759A /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
+		ECCCAF351952BE3000A5759A /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
+		ECCCAF361952BE3000A5759A /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
+		ECCCAF371952BE3000A5759A /* full_breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full_breakfast.jpg; sourceTree = "<group>"; };
+		ECCCAF381952BE3000A5759A /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		ECCCAF391952BE3000A5759A /* noodle_with_bbq_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noodle_with_bbq_pork.jpg; sourceTree = "<group>"; };
+		ECCCAF3A1952BE3000A5759A /* instant_noodle_with_egg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instant_noodle_with_egg.jpg; sourceTree = "<group>"; };
+		ECCCAF3B1952BE3000A5759A /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
+		ECCCAF3C1952BE3000A5759A /* angry_birds_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angry_birds_cake.jpg; sourceTree = "<group>"; };
+		ECCCAF3D1952BE3000A5759A /* mushroom_risotto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mushroom_risotto.jpg; sourceTree = "<group>"; };
+		ECCCAF3E1952BE3000A5759A /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
+		ECCCAF3F1952BE3000A5759A /* japanese_noodle_with_pork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japanese_noodle_with_pork.jpg; sourceTree = "<group>"; };
+		ECCCAF401952BE3000A5759A /* starbucks_coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starbucks_coffee.jpg; sourceTree = "<group>"; };
+		ECCCAF411952BE3000A5759A /* egg_benedict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = egg_benedict.jpg; sourceTree = "<group>"; };
+		ECCCAF421952BE3000A5759A /* ham_and_cheese_panini.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_cheese_panini.jpg; sourceTree = "<group>"; };
+		ECCCAF431952BE3000A5759A /* hamburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburger.jpg; sourceTree = "<group>"; };
+		ECCCAF441952BE3000A5759A /* creme_brelee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = creme_brelee.jpg; sourceTree = "<group>"; };
+		ECCCAF571952C3EF00A5759A /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		ECCCAF581952C3EF00A5759A /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		ECCCAF5C1952C88300A5759A /* TableViewApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		ECCEA2DD1952AE9F0007277A /* TableViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCEA2E11952AEA00007277A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCEA2E21952AEA00007277A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECCEA2E41952AEA00007277A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ECCEA2E71952AEA00007277A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCEA2E91952AEA00007277A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECCEA2EF1952AEA00007277A /* TableViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCEA2F41952AEA00007277A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCEA2F51952AEA00007277A /* TableViewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCEA2DA1952AE9F0007277A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCEA2EC1952AEA00007277A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCCAF341952BE1300A5759A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ECCCAF321952BBDB00A5759A /* recipes.plist */,
+				ECCCAF351952BE3000A5759A /* ham_and_egg_sandwich.jpg */,
+				ECCCAF361952BE3000A5759A /* green_tea.jpg */,
+				ECCCAF371952BE3000A5759A /* full_breakfast.jpg */,
+				ECCCAF381952BE3000A5759A /* white_chocolate_donut.jpg */,
+				ECCCAF391952BE3000A5759A /* noodle_with_bbq_pork.jpg */,
+				ECCCAF3A1952BE3000A5759A /* instant_noodle_with_egg.jpg */,
+				ECCCAF3B1952BE3000A5759A /* thai_shrimp_cake.jpg */,
+				ECCCAF3C1952BE3000A5759A /* angry_birds_cake.jpg */,
+				ECCCAF3D1952BE3000A5759A /* mushroom_risotto.jpg */,
+				ECCCAF3E1952BE3000A5759A /* vegetable_curry.jpg */,
+				ECCCAF3F1952BE3000A5759A /* japanese_noodle_with_pork.jpg */,
+				ECCCAF401952BE3000A5759A /* starbucks_coffee.jpg */,
+				ECCCAF411952BE3000A5759A /* egg_benedict.jpg */,
+				ECCCAF421952BE3000A5759A /* ham_and_cheese_panini.jpg */,
+				ECCCAF431952BE3000A5759A /* hamburger.jpg */,
+				ECCCAF441952BE3000A5759A /* creme_brelee.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ECCEA2D41952AE9F0007277A = {
+			isa = PBXGroup;
+			children = (
+				ECCEA2DF1952AE9F0007277A /* TableViewApp */,
+				ECCEA2F21952AEA00007277A /* TableViewAppTests */,
+				ECCEA2DE1952AE9F0007277A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCEA2DE1952AE9F0007277A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCEA2DD1952AE9F0007277A /* TableViewApp.app */,
+				ECCEA2EF1952AEA00007277A /* TableViewAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCEA2DF1952AE9F0007277A /* TableViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				ECCEA2E61952AEA00007277A /* Main.storyboard */,
+				ECCEA2E21952AEA00007277A /* AppDelegate.swift */,
+				ECCEA2E41952AEA00007277A /* TableViewController.swift */,
+				ECCCAF571952C3EF00A5759A /* TableViewCell.swift */,
+				ECCCAF581952C3EF00A5759A /* TableViewCell.xib */,
+				ECCCAF341952BE1300A5759A /* Resources */,
+				ECCEA2E91952AEA00007277A /* Images.xcassets */,
+				ECCEA2E01952AEA00007277A /* Supporting Files */,
+				ECCCAF5C1952C88300A5759A /* TableViewApp-Bridging-Header.h */,
+			);
+			path = TableViewApp;
+			sourceTree = "<group>";
+		};
+		ECCEA2E01952AEA00007277A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCEA2E11952AEA00007277A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECCEA2F21952AEA00007277A /* TableViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCEA2F51952AEA00007277A /* TableViewAppTests.swift */,
+				ECCEA2F31952AEA00007277A /* Supporting Files */,
+			);
+			path = TableViewAppTests;
+			sourceTree = "<group>";
+		};
+		ECCEA2F31952AEA00007277A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCEA2F41952AEA00007277A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCEA2DC1952AE9F0007277A /* TableViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCEA2F91952AEA00007277A /* Build configuration list for PBXNativeTarget "TableViewApp" */;
+			buildPhases = (
+				ECCEA2D91952AE9F0007277A /* Sources */,
+				ECCEA2DA1952AE9F0007277A /* Frameworks */,
+				ECCEA2DB1952AE9F0007277A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewApp;
+			productName = TableViewApp;
+			productReference = ECCEA2DD1952AE9F0007277A /* TableViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCEA2EE1952AEA00007277A /* TableViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCEA2FC1952AEA00007277A /* Build configuration list for PBXNativeTarget "TableViewAppTests" */;
+			buildPhases = (
+				ECCEA2EB1952AEA00007277A /* Sources */,
+				ECCEA2EC1952AEA00007277A /* Frameworks */,
+				ECCEA2ED1952AEA00007277A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCEA2F11952AEA00007277A /* PBXTargetDependency */,
+			);
+			name = TableViewAppTests;
+			productName = TableViewAppTests;
+			productReference = ECCEA2EF1952AEA00007277A /* TableViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCEA2D51952AE9F0007277A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Robosoft Technologies";
+				TargetAttributes = {
+					ECCEA2DC1952AE9F0007277A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					ECCEA2EE1952AEA00007277A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = ECCEA2DC1952AE9F0007277A;
+					};
+				};
+			};
+			buildConfigurationList = ECCEA2D81952AE9F0007277A /* Build configuration list for PBXProject "TableViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCEA2D41952AE9F0007277A;
+			productRefGroup = ECCEA2DE1952AE9F0007277A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCEA2DC1952AE9F0007277A /* TableViewApp */,
+				ECCEA2EE1952AEA00007277A /* TableViewAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCEA2DB1952AE9F0007277A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCCAF461952BE3000A5759A /* green_tea.jpg in Resources */,
+				ECCCAF481952BE3000A5759A /* white_chocolate_donut.jpg in Resources */,
+				ECCCAF4A1952BE3000A5759A /* instant_noodle_with_egg.jpg in Resources */,
+				ECCCAF521952BE3000A5759A /* ham_and_cheese_panini.jpg in Resources */,
+				ECCCAF451952BE3000A5759A /* ham_and_egg_sandwich.jpg in Resources */,
+				ECCCAF331952BBDB00A5759A /* recipes.plist in Resources */,
+				ECCCAF4C1952BE3000A5759A /* angry_birds_cake.jpg in Resources */,
+				ECCEA2E81952AEA00007277A /* Main.storyboard in Resources */,
+				ECCCAF531952BE3000A5759A /* hamburger.jpg in Resources */,
+				ECCCAF501952BE3000A5759A /* starbucks_coffee.jpg in Resources */,
+				ECCCAF491952BE3000A5759A /* noodle_with_bbq_pork.jpg in Resources */,
+				ECCCAF4F1952BE3000A5759A /* japanese_noodle_with_pork.jpg in Resources */,
+				ECCCAF4E1952BE3000A5759A /* vegetable_curry.jpg in Resources */,
+				ECCCAF4D1952BE3000A5759A /* mushroom_risotto.jpg in Resources */,
+				ECCCAF471952BE3000A5759A /* full_breakfast.jpg in Resources */,
+				ECCCAF5A1952C3EF00A5759A /* TableViewCell.xib in Resources */,
+				ECCCAF541952BE3000A5759A /* creme_brelee.jpg in Resources */,
+				ECCCAF4B1952BE3000A5759A /* thai_shrimp_cake.jpg in Resources */,
+				ECCEA2EA1952AEA00007277A /* Images.xcassets in Resources */,
+				ECCCAF511952BE3000A5759A /* egg_benedict.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCEA2ED1952AEA00007277A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCEA2D91952AE9F0007277A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCEA2E51952AEA00007277A /* TableViewController.swift in Sources */,
+				ECCCAF591952C3EF00A5759A /* TableViewCell.swift in Sources */,
+				ECCEA2E31952AEA00007277A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCEA2EB1952AEA00007277A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCEA2F61952AEA00007277A /* TableViewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCEA2F11952AEA00007277A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCEA2DC1952AE9F0007277A /* TableViewApp */;
+			targetProxy = ECCEA2F01952AEA00007277A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCEA2E61952AEA00007277A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCEA2E71952AEA00007277A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCEA2F71952AEA00007277A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECCEA2F81952AEA00007277A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCEA2FA1952AEA00007277A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TableViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TableViewApp/TableViewApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECCEA2FB1952AEA00007277A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TableViewApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TableViewApp/TableViewApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		ECCEA2FD1952AEA00007277A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewApp.app/TableViewApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TableViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		ECCEA2FE1952AEA00007277A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewApp.app/TableViewApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TableViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCEA2D81952AE9F0007277A /* Build configuration list for PBXProject "TableViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCEA2F71952AEA00007277A /* Debug */,
+				ECCEA2F81952AEA00007277A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCEA2F91952AEA00007277A /* Build configuration list for PBXNativeTarget "TableViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCEA2FA1952AEA00007277A /* Debug */,
+				ECCEA2FB1952AEA00007277A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCEA2FC1952AEA00007277A /* Build configuration list for PBXNativeTarget "TableViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCEA2FD1952AEA00007277A /* Debug */,
+				ECCEA2FE1952AEA00007277A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCEA2D51952AE9F0007277A /* Project object */;
+}
