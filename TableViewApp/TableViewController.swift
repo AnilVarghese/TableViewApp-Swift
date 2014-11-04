@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class TableViewController: UIViewController {
 
     let simpleTableIdentifier = "TableViewCell";
 
@@ -29,11 +29,14 @@ class TableViewController: UIViewController,UITableViewDelegate,UITableViewDataS
         let path = NSBundle.mainBundle().pathForResource("recipes", ofType: "plist")
         
         // Load the file content and read the data into arrays
-        let  dict = NSDictionary(contentsOfFile: path)
+        if let validPath = path {
+            let  dict = NSDictionary(contentsOfFile: validPath)
+            
+            tableData = dict!["RecipeName"] as Array
+            thumbnails = dict!["Thumbnail"] as Array
+            prepTime = dict!["PrepTime"] as Array
+        }
         
-        tableData = dict["RecipeName"] as Array
-        thumbnails = dict ["Thumbnail"] as Array
-        prepTime = dict["PrepTime"] as Array
     
     }
 
@@ -58,9 +61,9 @@ class TableViewController: UIViewController,UITableViewDelegate,UITableViewDataS
             cell = nib[0] as? TableViewCell
         }
         
-        cell!.nameLabel.text = tableData[indexPath.row]
-        cell!.recipeImageView.image = UIImage(named:thumbnails[indexPath.row])
-        cell!.timeLabel.text = prepTime[indexPath.row];
+        cell!.nameLabel!.text = tableData[indexPath.row]
+        cell!.recipeImageView!.image = UIImage(named:thumbnails[indexPath.row])
+        cell!.timeLabel!.text = prepTime[indexPath.row];
         
         return cell;
     }

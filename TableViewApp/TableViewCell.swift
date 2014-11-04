@@ -10,9 +10,9 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    @IBOutlet var recipeImageView : UIImageView
-    @IBOutlet var nameLabel : UILabel
-    @IBOutlet var timeLabel : UILabel
+    @IBOutlet var recipeImageView : UIImageView?
+    @IBOutlet var nameLabel : UILabel?
+    @IBOutlet var timeLabel : UILabel?
     
     override func awakeFromNib() {
         super.awakeFromNib()
