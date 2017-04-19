@@ -8,7 +8,9 @@
 
 import UIKit
 
-class TableViewController: UIViewController {
+class TableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+   
+    @IBOutlet weak var tablewView: UITableView!
 
     let simpleTableIdentifier = "TableViewCell";
 
@@ -24,17 +26,20 @@ class TableViewController: UIViewController {
         super.viewDidLoad()
 
 
+        //Register cell nib
+        tablewView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "TableViewCell")
+        
         // Find out the path of recipes.plist
     
-        let path = NSBundle.mainBundle().pathForResource("recipes", ofType: "plist")
+        let path = Bundle.main.path(forResource: "recipes", ofType: "plist")
         
         // Load the file content and read the data into arrays
         if let validPath = path {
             let  dict = NSDictionary(contentsOfFile: validPath)
             
-            tableData = dict!["RecipeName"] as Array
-            thumbnails = dict!["Thumbnail"] as Array
-            prepTime = dict!["PrepTime"] as Array
+            tableData = dict!["RecipeName"] as! Array
+            thumbnails = dict!["Thumbnail"] as! Array
+            prepTime = dict!["PrepTime"] as! Array
         }
         
     
@@ -45,29 +50,19 @@ class TableViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int
-    {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tableData.count;
     }
     
-    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell!
-    {
-        
-        var  cell:TableViewCell? = tableView.dequeueReusableCellWithIdentifier(simpleTableIdentifier) as? TableViewCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-        if (cell == nil)
-        {
-            let nib:Array = NSBundle.mainBundle().loadNibNamed("TableViewCell", owner: self, options: nil)
-            cell = nib[0] as? TableViewCell
-        }
+        let  cell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: simpleTableIdentifier,for:indexPath ) as! TableViewCell
+       
+        cell.nameLabel!.text = tableData[indexPath.row]
+        cell.recipeImageView!.image = UIImage(named:thumbnails[indexPath.row])
+        cell.timeLabel!.text = prepTime[indexPath.row];
         
-        cell!.nameLabel!.text = tableData[indexPath.row]
-        cell!.recipeImageView!.image = UIImage(named:thumbnails[indexPath.row])
-        cell!.timeLabel!.text = prepTime[indexPath.row];
-        
-        return cell;
+        return cell
     }
-
-
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC90F1851EA7386500FE9AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC90F1841EA7386500FE9AAC /* LaunchScreen.storyboard */; };
 		ECCCAF331952BBDB00A5759A /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF321952BBDB00A5759A /* recipes.plist */; };
 		ECCCAF451952BE3000A5759A /* ham_and_egg_sandwich.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF351952BE3000A5759A /* ham_and_egg_sandwich.jpg */; };
 		ECCCAF461952BE3000A5759A /* green_tea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECCCAF361952BE3000A5759A /* green_tea.jpg */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC90F1841EA7386500FE9AAC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCCAF321952BBDB00A5759A /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 		ECCCAF351952BE3000A5759A /* ham_and_egg_sandwich.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ham_and_egg_sandwich.jpg; sourceTree = "<group>"; };
 		ECCCAF361952BE3000A5759A /* green_tea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green_tea.jpg; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				ECCEA2E41952AEA00007277A /* TableViewController.swift */,
 				ECCCAF571952C3EF00A5759A /* TableViewCell.swift */,
 				ECCCAF581952C3EF00A5759A /* TableViewCell.xib */,
+				EC90F1841EA7386500FE9AAC /* LaunchScreen.storyboard */,
 				ECCCAF341952BE1300A5759A /* Resources */,
 				ECCEA2E91952AEA00007277A /* Images.xcassets */,
 				ECCEA2E01952AEA00007277A /* Supporting Files */,
@@ -225,9 +228,11 @@
 				TargetAttributes = {
 					ECCEA2DC1952AE9F0007277A = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0820;
 					};
 					ECCEA2EE1952AEA00007277A = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0820;
 						TestTargetID = ECCEA2DC1952AE9F0007277A;
 					};
 				};
@@ -274,6 +279,7 @@
 				ECCCAF5A1952C3EF00A5759A /* TableViewCell.xib in Resources */,
 				ECCCAF541952BE3000A5759A /* creme_brelee.jpg in Resources */,
 				ECCCAF4B1952BE3000A5759A /* thai_shrimp_cake.jpg in Resources */,
+				EC90F1851EA7386500FE9AAC /* LaunchScreen.storyboard in Resources */,
 				ECCEA2EA1952AEA00007277A /* Images.xcassets in Resources */,
 				ECCCAF511952BE3000A5759A /* egg_benedict.jpg in Resources */,
 			);
@@ -410,7 +416,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -418,6 +423,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TableViewApp/TableViewApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -425,13 +431,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TableViewApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "TableViewApp/TableViewApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -451,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -467,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
